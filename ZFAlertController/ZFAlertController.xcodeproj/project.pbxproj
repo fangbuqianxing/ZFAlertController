@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8169B220BE7EF0B125980C89 /* Pods_ZFAlertController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 306A4A7C4993D8E2B387C3D3 /* Pods_ZFAlertController.framework */; };
+		97574D4423C475E4002C25A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97574D4323C475E4002C25A1 /* AppDelegate.swift */; };
+		97574D4623C475E4002C25A1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97574D4523C475E4002C25A1 /* SceneDelegate.swift */; };
+		97574D4823C475E4002C25A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97574D4723C475E4002C25A1 /* ViewController.swift */; };
+		97574D4B23C475E4002C25A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97574D4923C475E4002C25A1 /* Main.storyboard */; };
+		97574D4D23C475E5002C25A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97574D4C23C475E5002C25A1 /* Assets.xcassets */; };
+		97574D5023C475E5002C25A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97574D4E23C475E5002C25A1 /* LaunchScreen.storyboard */; };
+		97574D5823C4790F002C25A1 /* ZFAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97574D5723C4790F002C25A1 /* ZFAlertController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2991864AF4FE491795B9CA14 /* Pods-ZFAlertController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZFAlertController.release.xcconfig"; path = "Target Support Files/Pods-ZFAlertController/Pods-ZFAlertController.release.xcconfig"; sourceTree = "<group>"; };
+		306A4A7C4993D8E2B387C3D3 /* Pods_ZFAlertController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZFAlertController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97574D4023C475E4002C25A1 /* ZFAlertController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZFAlertController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		97574D4323C475E4002C25A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		97574D4523C475E4002C25A1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		97574D4723C475E4002C25A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		97574D4A23C475E4002C25A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		97574D4C23C475E5002C25A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		97574D4F23C475E5002C25A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		97574D5123C475E5002C25A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97574D5723C4790F002C25A1 /* ZFAlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZFAlertController.swift; sourceTree = "<group>"; };
+		B18BECF13C2A8DC2549D6FD0 /* Pods-ZFAlertController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZFAlertController.debug.xcconfig"; path = "Target Support Files/Pods-ZFAlertController/Pods-ZFAlertController.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		97574D3D23C475E4002C25A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8169B220BE7EF0B125980C89 /* Pods_ZFAlertController.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F6A7AD7B027DC21B9D5D1D6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B18BECF13C2A8DC2549D6FD0 /* Pods-ZFAlertController.debug.xcconfig */,
+				2991864AF4FE491795B9CA14 /* Pods-ZFAlertController.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6E8416F03C6D10D02E7CEFF2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				306A4A7C4993D8E2B387C3D3 /* Pods_ZFAlertController.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		97574D3723C475E4002C25A1 = {
+			isa = PBXGroup;
+			children = (
+				97574D4223C475E4002C25A1 /* ZFAlertController */,
+				97574D4123C475E4002C25A1 /* Products */,
+				0F6A7AD7B027DC21B9D5D1D6 /* Pods */,
+				6E8416F03C6D10D02E7CEFF2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		97574D4123C475E4002C25A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				97574D4023C475E4002C25A1 /* ZFAlertController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		97574D4223C475E4002C25A1 /* ZFAlertController */ = {
+			isa = PBXGroup;
+			children = (
+				97574D4323C475E4002C25A1 /* AppDelegate.swift */,
+				97574D4523C475E4002C25A1 /* SceneDelegate.swift */,
+				97574D4723C475E4002C25A1 /* ViewController.swift */,
+				97574D5723C4790F002C25A1 /* ZFAlertController.swift */,
+				97574D4923C475E4002C25A1 /* Main.storyboard */,
+				97574D4C23C475E5002C25A1 /* Assets.xcassets */,
+				97574D4E23C475E5002C25A1 /* LaunchScreen.storyboard */,
+				97574D5123C475E5002C25A1 /* Info.plist */,
+			);
+			path = ZFAlertController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		97574D3F23C475E4002C25A1 /* ZFAlertController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97574D5423C475E5002C25A1 /* Build configuration list for PBXNativeTarget "ZFAlertController" */;
+			buildPhases = (
+				6766CAA9F362399B35D6E26A /* [CP] Check Pods Manifest.lock */,
+				97574D3C23C475E4002C25A1 /* Sources */,
+				97574D3D23C475E4002C25A1 /* Frameworks */,
+				97574D3E23C475E4002C25A1 /* Resources */,
+				16D08C5950BDD2D48AC022A2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZFAlertController;
+			productName = ZFAlertController;
+			productReference = 97574D4023C475E4002C25A1 /* ZFAlertController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		97574D3823C475E4002C25A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = tataufo;
+				TargetAttributes = {
+					97574D3F23C475E4002C25A1 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = 97574D3B23C475E4002C25A1 /* Build configuration list for PBXProject "ZFAlertController" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 97574D3723C475E4002C25A1;
+			productRefGroup = 97574D4123C475E4002C25A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				97574D3F23C475E4002C25A1 /* ZFAlertController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		97574D3E23C475E4002C25A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97574D5023C475E5002C25A1 /* LaunchScreen.storyboard in Resources */,
+				97574D4D23C475E5002C25A1 /* Assets.xcassets in Resources */,
+				97574D4B23C475E4002C25A1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		16D08C5950BDD2D48AC022A2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZFAlertController/Pods-ZFAlertController-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZFAlertController/Pods-ZFAlertController-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZFAlertController/Pods-ZFAlertController-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6766CAA9F362399B35D6E26A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZFAlertController-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		97574D3C23C475E4002C25A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97574D4823C475E4002C25A1 /* ViewController.swift in Sources */,
+				97574D4423C475E4002C25A1 /* AppDelegate.swift in Sources */,
+				97574D5823C4790F002C25A1 /* ZFAlertController.swift in Sources */,
+				97574D4623C475E4002C25A1 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		97574D4923C475E4002C25A1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97574D4A23C475E4002C25A1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		97574D4E23C475E5002C25A1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97574D4F23C475E5002C25A1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		97574D5223C475E5002C25A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		97574D5323C475E5002C25A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		97574D5523C475E5002C25A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B18BECF13C2A8DC2549D6FD0 /* Pods-ZFAlertController.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VPRS2QPUQT;
+				INFOPLIST_FILE = ZFAlertController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tataufo.ZFAlertController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		97574D5623C475E5002C25A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2991864AF4FE491795B9CA14 /* Pods-ZFAlertController.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VPRS2QPUQT;
+				INFOPLIST_FILE = ZFAlertController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tataufo.ZFAlertController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		97574D3B23C475E4002C25A1 /* Build configuration list for PBXProject "ZFAlertController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97574D5223C475E5002C25A1 /* Debug */,
+				97574D5323C475E5002C25A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97574D5423C475E5002C25A1 /* Build configuration list for PBXNativeTarget "ZFAlertController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97574D5523C475E5002C25A1 /* Debug */,
+				97574D5623C475E5002C25A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 97574D3823C475E4002C25A1 /* Project object */;
+}
