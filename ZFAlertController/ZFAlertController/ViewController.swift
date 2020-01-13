@@ -70,6 +70,15 @@ class ViewController: UIViewController {
         a1.titleAttributed = NSAttributedString(string: "属性字符串", attributes: [NSAttributedString.Key.foregroundColor : UIColor.red])
         controller1.addAction(a1)
         
+        let a2 = ZFAlertAction(title: "自定义view") { (action) in
+            print(action.title ?? "自定义view")
+        }
+        a2.customViewType = ZFCustomViewOne.self
+        a2.imageName = "close"
+        a2.contentAlignment = .center
+        a2.height = 100
+        controller1.addAction(a2)
+        
         DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 3) {
             controller.present(controller1, animated: true, completion: nil)
         }

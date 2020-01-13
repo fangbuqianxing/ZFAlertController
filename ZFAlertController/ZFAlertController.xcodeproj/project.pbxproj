@@ -15,6 +15,7 @@
 		97574D4D23C475E5002C25A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97574D4C23C475E5002C25A1 /* Assets.xcassets */; };
 		97574D5023C475E5002C25A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97574D4E23C475E5002C25A1 /* LaunchScreen.storyboard */; };
 		97574D5823C4790F002C25A1 /* ZFAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97574D5723C4790F002C25A1 /* ZFAlertController.swift */; };
+		977946F623CC742700BB1AE2 /* ZFCustomViewOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977946F523CC742700BB1AE2 /* ZFCustomViewOne.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		97574D4F23C475E5002C25A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		97574D5123C475E5002C25A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		97574D5723C4790F002C25A1 /* ZFAlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZFAlertController.swift; sourceTree = "<group>"; };
+		977946F523CC742700BB1AE2 /* ZFCustomViewOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZFCustomViewOne.swift; sourceTree = "<group>"; };
 		B18BECF13C2A8DC2549D6FD0 /* Pods-ZFAlertController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZFAlertController.debug.xcconfig"; path = "Target Support Files/Pods-ZFAlertController/Pods-ZFAlertController.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -85,6 +87,7 @@
 				97574D4323C475E4002C25A1 /* AppDelegate.swift */,
 				97574D4523C475E4002C25A1 /* SceneDelegate.swift */,
 				97574D4723C475E4002C25A1 /* ViewController.swift */,
+				977946F523CC742700BB1AE2 /* ZFCustomViewOne.swift */,
 				97574D5723C4790F002C25A1 /* ZFAlertController.swift */,
 				97574D4923C475E4002C25A1 /* Main.storyboard */,
 				97574D4C23C475E5002C25A1 /* Assets.xcassets */,
@@ -210,6 +213,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				97574D4823C475E4002C25A1 /* ViewController.swift in Sources */,
+				977946F623CC742700BB1AE2 /* ZFCustomViewOne.swift in Sources */,
 				97574D4423C475E4002C25A1 /* AppDelegate.swift in Sources */,
 				97574D5823C4790F002C25A1 /* ZFAlertController.swift in Sources */,
 				97574D4623C475E4002C25A1 /* SceneDelegate.swift in Sources */,

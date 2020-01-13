@@ -38,7 +38,7 @@ class ZFAlertAction: NSObject {
     /// 行高
     var height: CGFloat = 60
     
-    /// 自定义View 的类类型 内部调用 init()初始化实例对象
+    /// 自定义View 的类类型 内部调用 init(frame: CGRect)初始化实例对象
     var customViewType: ZFActionView.Type?
     
     /// Create and return an action with the specified title and behavior.
@@ -55,8 +55,9 @@ class ZFAlertAction: NSObject {
     private var tempHandler: ((_ handler: @escaping (() -> Void)) -> Void)?
     func addTarget(_ handler: @escaping (_ handler: @escaping (() -> Void)) -> Void) -> ZFActionView {
         tempHandler = handler
+        let frame = CGRect(x: 0, y: 0, width: 375, height: height)
         
-        let control = customViewType?.init() ?? ZFButton(type: .custom)
+        let control = customViewType?.init(frame: frame) ?? ZFButton(type: .custom)
         control.addTarget(self, action: #selector(handlerAction), for: .touchUpInside)
         control.setData(action: self)
         
